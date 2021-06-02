@@ -20,7 +20,7 @@ Para evitar que seu código receba atualizações automáticas do modulo, é pre
 
 ```hcl
 module "teste_app_gw" {
-  source   = "git::https://timbrasil@dev.azure.com/timbrasil/Projeto_IaC/_git/azr-network/modulo-app-gateway.git?ref=v1.0.0"
+  source   = "git::https://github.com/mgsj2006/azurerm-module-app-gateway.git?ref=v1.0.0"
   name                  = "teste_app_gw"
   rg_name               = "resource_group"
   location              = "brazilsouth"
